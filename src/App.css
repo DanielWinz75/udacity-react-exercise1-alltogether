@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list-users {
+  padding-top: 60px;
+}
+.list-users-top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid #d5d8df;
+  display: flex;
+}
+.add-user {
+  display: block;
+  width: 73px;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  font-size: 0;
+}
+
+.showing-users {
+  text-align: center;
+  margin: 20px 0;
+}
+.showing-users button {
+  color: blue;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.user-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.user-list-item {
+  padding: 20px;
+  background: white;
+  display: flex;
+}
+
+.user-add {
+  padding-left: 20px;
+  align-self: center;
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  background-size: 100% 100%;
+  border: 0;
+  color: white;
+  font-size: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: none;
+}
+
+.toggle-games {
+  padding-left: 20px;
+  align-self: left;
+  width: 30%;
+  height: 22px;
+  background-color: transparent;
+  background-size: 100% 100%;
+  border: 0;
+	line-height: 3px;  
+  color: white;
+  font-size: 0.8em;
+  vertical-align: middle;
+  cursor: pointer;
+  outline: none;
+}
+
+.user-details {
+  padding-left: 20px;
+  border-left: 1px solid #eee;
+
+  flex: 1;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-details p {
+  margin: 0;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
